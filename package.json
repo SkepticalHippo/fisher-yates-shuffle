@@ -1,0 +1,30 @@
+{
+  "name": "fisher-yates-shuffle",
+  "version": "0.0.1",
+  "description": "Fisher-Yates Shuffle Implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkepticalHippo/fisher-yates-shuffle.git"
+  },
+  "keywords": [
+    "shuffle",
+    "fisher-yates",
+    "random",
+    "cards",
+    "deck"
+  ],
+  "author": "Edvinas Paulauskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkepticalHippo/fisher-yates-shuffle/issues"
+  },
+  "homepage": "https://github.com/SkepticalHippo/fisher-yates-shuffle#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
