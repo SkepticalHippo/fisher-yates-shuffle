@@ -2,6 +2,10 @@
 
 A JavaScript implementation of the Fisher-Yates Shuffle algorithm.
 
+## Requirements
+
+* NodeJS 6+
+
 ## Installation
 
 `npm install fisher-yates-shuffle --save`
