@@ -1,7 +1,7 @@
 const shuffle = function(deck) {
     let length      = deck.length;
     let clone       = deck.slice(0);
-    let shuffled    = new Array();
+    let shuffled    = [];
 
     while(length--) {
         shuffled.push(clone.slice(Math.floor(Math.random() * length)).shift());
