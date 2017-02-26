@@ -1,6 +1,6 @@
 {
   "name": "fisher-yates-shuffle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fisher-Yates Shuffle Implementation",
   "main": "index.js",
   "scripts": {
