@@ -1,4 +1,4 @@
-# Fisher-Yates Shuffle
+# Fisher-Yates Shuffle [![Build Status](https://travis-ci.org/SkepticalHippo/fisher-yates-shuffle.svg?branch=master)](https://travis-ci.org/SkepticalHippo/fisher-yates-shuffle)
 
 A JavaScript implementation of the Fisher-Yates Shuffle algorithm.
 
