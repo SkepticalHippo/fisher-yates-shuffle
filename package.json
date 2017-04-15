@@ -18,7 +18,7 @@
     "deck"
   ],
   "author": "Edvinas Paulauskas",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SkepticalHippo/fisher-yates-shuffle/issues"
   },
