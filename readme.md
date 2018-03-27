@@ -13,7 +13,7 @@ A JavaScript implementation of the Fisher-Yates Shuffle algorithm.
 ## Usage
 
 ```js
-const shuffle = require('fisher-yates-shuffe');
+const shuffle = require('fisher-yates-shuffle');
 const deck = ['a', 'b', 'c', 'd'];
 const shuffledDeck = shuffle(deck);
 ```
