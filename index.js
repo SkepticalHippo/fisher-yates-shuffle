@@ -4,7 +4,7 @@ const shuffle = function(deck, random = Math.random) {
     let shuffled    = [];
 
     while(length--) {
-        shuffled.push(clone.slice(Math.floor(random() * length)).shift());
+        shuffled.push(clone.splice(Math.floor(random() * length), 1).shift());
     }
 
     return shuffled;
