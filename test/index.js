@@ -27,4 +27,11 @@ describe('shuffle()', function() {
         assert.notDeepEqual(deck, shuffledDeck);
         assert.equal(deck.length, shuffledDeck.length);
     });
+
+    it('should not lose or duplicate elements', function() {
+        const d1 = [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ]
+        const d2 = shuffle(d1);
+        assert.includeMembers(d2, d1, 'all of original elements should be included in output')
+        assert.lengthOf(d2, d1.length, 'length of array should not change')
+    });
 });
